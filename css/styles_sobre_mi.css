@@ -1,0 +1,121 @@
+
+div {
+  /*  border: 2px solid #1a1a1a; */
+}
+#sobre_mi {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#sobre_mi img{
+    border: 2px solid #1a1a1a; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #000; 
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #sobre_mi img{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+
+/*Enlaces de sobre mí*/
+
+
+a:hover {
+    color:white;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(8, 76, 65, 1); 
+}
+
+
+
+
+
+
+
+#sobre_mi_perfil {
+    width: 50%; 
+    margin: 0 auto; 
+   
+}
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #sobre_mi_perfil {
+        width: 80%; 
+        
+    }
+}
+
+
+
+h1 {   
+    
+    text-align: center;
+}
+#sobre_mi_perfil_atras {
+    
+    width: 10%; 
+    margin: 0 auto; 
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #sobre_mi_perfil_atras {
+    
+        width: 25%; 
+        margin: 0 auto; 
+    }
+}
+
+
+table {
+    font-size: 20px;
+    width: 70%;
+    margin: auto; 
+    border-collapse: collapse; 
+    float: left;
+}
+
+@media only screen and (min-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    table {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #competencia_personales {
+        width: 110%;
+    }
+    .miss_celular {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    .mostrar_celular {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+td {
+    vertical-align: middle; 
+    padding: 10px; 
+    
+}
+

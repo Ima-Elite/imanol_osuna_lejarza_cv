@@ -1,0 +1,62 @@
+
+#slider{
+    margin: 0 auto;
+    display: block; 
+    position: relative; 
+    width: 600px;
+    height: 350px; 
+    list-style: none; 
+    border: 2px solid #1a1a1a; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #000; 
+    overflow: hidden;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #slider {
+        width: 90%;
+    }
+}
+
+
+#slider .selected{
+    z-index: 1; 
+    opacity: 1; 
+    -moz-transition: all 2s ease 0s;
+    -ms-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}
+#slider .noselected{
+    z-index: 0; 
+    opacity: 0; 
+    -moz-transition: all 2s ease 0s;
+    -ms-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
+    -webkit-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+}
+
+
+/*Botones del propio slider*/
+
+#botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#botones input{
+    background-size: cover; 
+    width: 15px; 
+    height: 15px; 
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+

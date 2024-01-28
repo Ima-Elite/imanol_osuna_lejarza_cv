@@ -1,0 +1,323 @@
+/*body ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    margin: 0;
+    font-family: 'Calibri', sans-serif;
+}
+
+body p{
+    font-size: 20px;
+}
+
+
+.contenedor {
+    
+}
+
+/*colores personalizados ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.verdosillo {
+    color: rgb(8, 76, 65, 1); 
+}
+
+
+/*header ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+header {
+
+    background: linear-gradient(to bottom, transparent 55%, #fff 45%), url('../img/cabecera/oficina_cabcera_distorsion.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+header img {
+    width: 180px; /* Establece el ancho de la imagen */
+    height: 180px; /* Establece la altura de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    border-radius: 50%;
+    border-top: 6px solid #fff; 
+    border-bottom: 6px solid rgb(8, 76, 65, 1); ; 
+}
+
+.main-content {
+    display: flex;
+    align-items: flex-start; /* Alinea la imagen hacia arriba */
+    justify-content: center;
+    margin-top: 20px; /* Espacio entre la cabecera y el contenido principal */
+}
+
+
+.h1-container {
+    width: 60%;  
+    text-align: left;
+    margin: 20px auto;
+    display: flex;
+}
+
+
+
+/* Enlaces  ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.name-container {
+   
+    padding: 20px;
+    margin: 20px auto;
+    
+    justify-content: space-between; /* Alinea los divs en fila */
+    flex-direction: row-reverse; 
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    .name-container {
+        width: 90%;
+        
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+   
+    .name-container {
+        display: flex;
+        width: 60%;
+    }
+}
+
+
+
+
+.contenedor-titulos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.info-box {
+    flex: 0 0 32%; 
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none; 
+    color: #333; 
+    border-radius: 10px;
+}
+
+
+
+.menu_principal {
+    text-align: center;
+    margin: 10px;
+    width: 30%; /* Ajusta según tus necesidades */
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    .menu_principal {
+        width: 96%;
+        margin-left: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+/*Efecto de Hover en las imagenes de Sobre mí, Experiencia Laboral y Formación*/
+
+
+.imagen-animada {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 1s ease; /* Transición más lenta por defecto */
+}
+
+/* Animación continua */
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1); /* Tamaño original */
+    }
+    50% {
+        transform: scale(1.2); /* Agrandar al 120% en el medio de la animación */
+    }
+}
+
+/* Aplicar animación al pasar el ratón por encima */
+.imagen-animada:hover {
+    animation: zoomInOut 3s infinite; /* 3 segundos de duración, repetición infinita */
+    transform: scale(0.8); /* Mantener el tamaño agrandado al salir del hover */
+}
+
+
+.name-container img {
+    width: 180px; /* Establece el ancho de la imagen */
+    height: 180px; /* Establece la altura de la imagen */
+    display: block;
+    margin: 0 auto; /* Centra la imagen */
+    border-radius: 5px;
+}
+
+.name-container img:hover {
+    background-color: rgb(235, 235, 235, 1);
+    color: #000; /* Cambia el color del texto en hover */
+    transition: background-color 0.6s ease;
+}
+
+/*Línea de separación  ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.line-container {
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row-reverse; 
+
+}
+
+.underline {
+    width: 60%;
+    height: 2px;
+    background-color:rgb(8, 76, 65, 1); 
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+   
+}
+
+
+/*Acercador para celular ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    .acercador_arriba {
+        margin-bottom: -12%;
+    }
+    .acercador {
+        margin-bottom: -10%;
+    }
+    .quitar_distancia {
+        display: none;
+        visibility: hidden;
+    }
+    
+}
+
+
+
+
+/*Slider  ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    
+  }
+  
+  .slider img {
+    width: 800px;
+    height: 450px;
+    border-radius:15px;
+    
+  }
+
+  #resultado {
+    text-align: center;
+    color:#333;
+  }
+
+  /* boton atras ------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .atras {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+
+
+
+
+
+/* fotter ------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+footer {
+    background-color: rgb(8, 76, 65, 1); 
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9px;
+}
+
+.footer-content h3 {
+    margin: 0; 
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+    .footer-content h3 {
+        margin-left: 20px;
+    }
+}
+
+
+  
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    #pie_programador {
+        display: none;
+    }
+}
+
+
+
+
+
