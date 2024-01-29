@@ -5,7 +5,11 @@ var crono = "";
 
 // poner imagen en cada boton del slider
 cargar_iconos();
+
+//la primera imagen
 primera();
+
+//iniciar el slider
 play();
 
 
@@ -114,3 +118,6 @@ function play() {
         iniciarPresentacion_lugar();
     }
 }
+
+
+

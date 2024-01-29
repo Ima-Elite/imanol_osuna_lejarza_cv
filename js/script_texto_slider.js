@@ -1,5 +1,7 @@
 
+/*Poner los puestos que he trabajado en verde en el div resultado del index*/
 
+/*comparte los mismos botones que el slider de imagenes*/ 
 
 var nombres = ["Programador de Java y .Net", "Profesor de Nuevas Tecnologías", "Carpintero y Diseño de Muebles", "Community Manager y Eventos", "Desarrollador y Maquetador Web"];
 var index = 0;

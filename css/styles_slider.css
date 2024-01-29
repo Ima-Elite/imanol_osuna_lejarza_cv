@@ -1,3 +1,4 @@
+/*estilos del slider----------------------------------------------*/
 
 #slider{
     margin: 0 auto;
@@ -13,6 +14,7 @@
     background-size: cover;
 }
 
+/*pasar al 90 en celular*/
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
     #slider {
@@ -20,6 +22,7 @@
     }
 }
 
+/*transiciones de imagen a imagen*/
 
 #slider .selected{
     z-index: 1; 
@@ -30,6 +33,7 @@
     -webkit-transition: all 2s ease 0s;
     transition: all 2s ease 0s;
 }
+
 #slider .noselected{
     z-index: 0; 
     opacity: 0; 

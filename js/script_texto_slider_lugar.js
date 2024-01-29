@@ -1,5 +1,7 @@
 
+/*Poner los lugares donde he trabajado en verde en el div resultado_lugar del index*/
 
+/*comparte los mismos botones que el slider de imagenes*/ 
 
 var nombres_lugar = ["CIC - Parque Tecnológico", "Telecentro de Cazoña", "Escuela Taller - Santander", "Palacio de la Magdalena", "iTECAN - Parque Tecnológico"];
 var index_lugar = 0;
