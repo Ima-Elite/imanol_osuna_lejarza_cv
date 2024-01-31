@@ -1,4 +1,3 @@
-poner las td de enemdio y izq más a la iz solo en version pc
 
 
 
@@ -8,3 +7,7 @@ poner las td de enemdio y izq más a la iz solo en version pc
 
 
 
+
+poner un menu de navegacion arriba de cada páginal.
+
+con la aprte de cada página en negro y el resto en verde con elaces.
