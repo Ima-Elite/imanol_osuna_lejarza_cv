@@ -2,17 +2,15 @@
 
 .progress-bar {
     height: 20px;
-    background-color: #f1f1f1;
+    background-color:rgb(195, 195, 195);
     position: relative;
     width: 60%;
-    /*display: inline-grid;*/
     margin-top: 5px;
   }
 
   .progress {
     height: 100%;
     background-color: rgb(8, 76, 65, 1); 
-    padding-left: 10px;
   }
 
   .progress-text {
@@ -23,18 +21,25 @@
     color: white;
   }
 
+  #tabla_competencias_tecnicas {
+    width: 100%;
+  }
+
   @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
+    .progress {
+      padding-left:5px;
+    }
     .progress-text {
       left: 60%;
-    }
-    .progress-bar {
-      margin-left: 20%;
     }
     #tabla_competencias_tecnicas{
       width: 105%;
     }
-    
+    #tabla_competencias_tecnicas td{
+      padding-bottom: 40px;
+      width: 30%;
+    }
 }
 
 /*imagenes de la tabla competencias tecnicas*/
@@ -45,26 +50,19 @@
   height:50px;
 }
 
+/*el texto de todas las td tenga más de 3 digitos pero que no se vea*/
+.separador_competencias_tecnicas {
+  visibility: hidden;
+}
 
 @media only screen and (min-width: 600px) {
    /* Estilos para pantallas grandes */
-
-   .separador_competencias_tecnicas {
-    display: none;
-    visibility: hidden;
-  }
        
-  .a_la_derecha_competencias {
-    margin-left: 0px;
+  #tabla_competencias_tecnicas td{
+    padding-bottom: 40px;
+    width: 24%;
   }
  
   }
 
 
-#tabla_competencias_tecnicas {
-  width: 100%;
-}
-
-#tabla_competencias_tecnicas td{
-padding-bottom: 40px;
-}
