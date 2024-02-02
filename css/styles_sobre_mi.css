@@ -132,7 +132,9 @@
     border-radius: 5px;
     color: white;
     background-color: rgb(255, 40, 46);
-    margin-left: -4px;
+    margin-left: -3px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
   .negro {
     color: black;
