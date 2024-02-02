@@ -37,13 +37,34 @@
     
 }
 
+/*imagenes de la tabla competencias tecnicas*/
+
+.imagen-redondeada {
+  border-radius: 10px;
+  width:50px;
+  height:50px;
+}
+
 
 @media only screen and (min-width: 600px) {
+   /* Estilos para pantallas grandes */
+
+   .separador_competencias_tecnicas {
+    display: none;
+    visibility: hidden;
+  }
        
   .a_la_derecha_competencias {
-    margin-left: 35px;
+    margin-left: 0px;
   }
  
   }
 
 
+#tabla_competencias_tecnicas {
+  width: 100%;
+}
+
+#tabla_competencias_tecnicas td{
+padding-bottom: 40px;
+}

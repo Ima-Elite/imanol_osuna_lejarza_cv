@@ -109,7 +109,7 @@
   }
   
   @media only screen and (min-width: 600px) {
-      /* Estilos para pantallas pequeñas */
+      /* Estilos para pantallas grandes */
       .mostrar_celular {
           display: none;
           visibility: hidden;
