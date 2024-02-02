@@ -117,4 +117,23 @@
   }
   
   
-  
+  /*enlaces you-tube y linked*/
+
+  .azul {
+    padding-left: 4px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(9, 103, 193);
+    margin-left: -3px;
+  }
+
+  .rojo{
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 40, 46);
+    margin-left: -4px;
+  }
+  .negro {
+    color: black;
+  }
