@@ -77,15 +77,27 @@
   margin-bottom: 40px;
 }
 
-#competencia_personales td{
-  text-align: center;
-}
+@media only screen and (min-width: 600px) {
+  /* Estilos para pantallas grandes */
+      
+  #competencia_personales td p{
+    text-align: center;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 600px) {
+      
+  #competencia_personales td{
+    padding-bottom: 20px;
+  }
+
+ }
+
 
 #competencia_personales td img{
   width:70px; 
   height:70px;
 }
 
-#competencia_personales p{
-  margin-bottom: -20px;
-}
