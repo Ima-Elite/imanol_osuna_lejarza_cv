@@ -88,9 +88,13 @@
  }
 
  @media only screen and (max-width: 600px) {
-      
+
+  #competencia_personales{
+    width:105%;
+  }
+
   #competencia_personales td{
-    padding-bottom: 20px;
+    padding: 0px;
   }
 
  }
