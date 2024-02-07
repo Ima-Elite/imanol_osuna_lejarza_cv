@@ -29,7 +29,6 @@ body p{
 }
 /*header ------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
 header {
 
     background: linear-gradient(to bottom, transparent 55%, #fff 45%), url('../img/cabecera/oficina_cabcera_distorsion.png'); 
@@ -70,10 +69,7 @@ header img {
     display: flex;
 }
 
-
-
 /* Enlaces  del index------------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 .name-container {
    
@@ -84,8 +80,6 @@ header img {
     flex-direction: row-reverse; 
     
 }
-
-
 
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
@@ -104,14 +98,12 @@ header img {
     }
 }
 
-
 .contenedor-titulos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-
 
 .info-box {
     flex: 0 0 32%; 
@@ -123,15 +115,12 @@ header img {
     border-radius: 10px;
 }
 
-
-
 .menu_principal {
     text-align: center;
     margin: 10px;
     width: 30%; /* Ajusta según tus necesidades */
  
 }
-
 
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
@@ -142,11 +131,7 @@ header img {
 }
 
 
-
-
-
 /*Efecto de Hover en las imagenes de Sobre mí, Experiencia Laboral y Formación*/
-
 
 .imagen-animada {
     max-width: 100%;
@@ -171,7 +156,6 @@ header img {
     transform: scale(0.8); /* Mantener el tamaño agrandado al salir del hover */
 }
 
-
 .name-container img {
     width: 180px; /* Establece el ancho de la imagen */
     height: 180px; /* Establece la altura de la imagen */
@@ -187,7 +171,6 @@ header img {
 }
 
 /*Línea de separación  ------------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 .line-container {
     width: 60%;
@@ -211,8 +194,6 @@ header img {
 
 /*Acercador para celular ------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
-
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
     .acercador_arriba {
@@ -235,7 +216,6 @@ header img {
     text-align: center;
     color:#333;
   }
-
 
 
 
@@ -267,7 +247,6 @@ header img {
   }
 
 
-
   /* boton atras ------------------------------------------------------------------------------------------------------------------------------------------*/
   
   .atras {
@@ -275,10 +254,6 @@ header img {
     text-decoration: none;
     color: black;
   }
-
-
-
-
 
 
 /* fotter ------------------------------------------------------------------------------------------------------------------------------------------*/

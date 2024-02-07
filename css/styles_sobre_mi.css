@@ -27,7 +27,6 @@
   
   /*Enlaces de sobre mí*/
   
-  
   a:hover {
       color:white;
   }
@@ -36,8 +35,6 @@
       text-decoration: underline;
       color: rgb(8, 76, 65, 1); 
   }
-  
-  
   
   #sobre_mi_perfil {
       width: 50%; 
@@ -51,7 +48,6 @@
           
       }
   }
-  
   
   
   h1 {   
