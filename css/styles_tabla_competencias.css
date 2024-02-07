@@ -66,3 +66,26 @@
   }
 
 
+/*competencias personales*/
+
+.tamanio {
+  font-size: 22px;
+}
+
+#competencia_personales{
+  width:80%;
+  margin-bottom: 40px;
+}
+
+#competencia_personales td{
+  text-align: center;
+}
+
+#competencia_personales td img{
+  width:70px; 
+  height:70px;
+}
+
+#competencia_personales p{
+  margin-bottom: -20px;
+}
