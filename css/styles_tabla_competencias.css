@@ -66,3 +66,52 @@
   }
 
 
+/*competencias personales*/
+
+
+#competencia_personales td{
+    padding: 0px;
+
+}    
+
+.tamanio {
+  font-size: 22px;
+}
+
+#competencia_personales{
+  width:90%;
+  margin-bottom: -10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  /* Estilos para pantallas grandes */
+      
+  #competencia_personales p{
+    text-align: center;
+    }
+    
+
+ }
+
+ @media only screen and (max-width: 1000px) {
+
+  #competencia_personales{
+    width:100%;
+  }
+
+  #competencia_personales td{
+    padding-left: 5%;
+  }
+
+  .tamanio {
+    font-size: 20px;
+  }
+
+ }
+
+
+#competencia_personales td img{
+  width:70px; 
+  height:70px;
+}
+
