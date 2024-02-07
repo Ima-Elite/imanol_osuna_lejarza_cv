@@ -99,6 +99,10 @@
     width:100%;
   }
 
+  #competencia_personales img{
+    margin-left: 10%;
+  }
+
   #competencia_personales td{
     padding-left: 5%;
   }
