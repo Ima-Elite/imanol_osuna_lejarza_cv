@@ -123,6 +123,13 @@ header img {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .menu_principal {
+        margin: -25px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
     .menu_principal {
         width: 96%;
@@ -197,7 +204,7 @@ header img {
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
     .acercador_arriba {
-        margin-bottom: -12%;
+        margin-bottom: -10%;
     }
     .acercador {
         margin-bottom: -10%;

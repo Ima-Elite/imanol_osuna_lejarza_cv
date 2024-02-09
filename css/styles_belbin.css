@@ -1,0 +1,49 @@
+.belbin-foto-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.belbin-foto {
+    width: calc(33.33% - 20px); /* Ajustar el ancho con margen */
+    text-align: center;
+    margin: 0 10px 20px; /* Margen entre las fotos */
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative; /* Para establecer una posición relativa */
+}
+
+.belbin-foto img {
+    width: 150px; /* Cambiar el tamaño de la imagen a 100x100 */
+    height: 150px;
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+}
+
+.belbin-titulo {
+    margin: 0;
+}
+
+.belbin-descripcion {
+    margin: 0;
+}
+
+/* Media query para dispositivos con un ancho máximo de 600px (por ejemplo, dispositivos móviles) */
+@media screen and (max-width: 600px) {
+    .belbin-foto {
+        width: calc(100% - 20px); /* Ancho al 100% menos los márgenes */
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+.verde_belbin{
+    padding: 2px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(0, 131, 60);
+    margin-left: -3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 2px;
+  }
+
