@@ -3,7 +3,7 @@
 
 /*comparte los mismos botones que el slider de imagenes*/ 
 
-var nombres = ["Programador de Java y .Net", "Profesor de Nuevas Tecnologías", "Carpintero y Diseño de Muebles", "Community Manager y Eventos", "Desarrollador y Maquetador Web"];
+var nombres = ["Profesor de HTML y CSS","Programador de Java y .Net", "Profesor de Nuevas Tecnologías", "Carpintero y Diseño de Muebles", "Community Manager y Eventos", "Desarrollador y Maquetador Web"];
 var index = 0;
 var intervalId;
 

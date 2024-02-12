@@ -3,7 +3,7 @@
 
 /*comparte los mismos botones que el slider de imagenes*/ 
 
-var nombres_lugar = ["CIC - Parque Tecnológico", "Telecentro de Cazoña", "Escuela Taller - Santander", "Palacio de la Magdalena", "iTECAN - Parque Tecnológico"];
+var nombres_lugar = ["Lanzadera de Empleo","CIC - Parque Tecnológico", "Telecentro de Cazoña", "Escuela Taller - Santander", "Palacio de la Magdalena", "iTECAN - Parque Tecnológico"];
 var index_lugar = 0;
 var intervalId_lugar;
 
