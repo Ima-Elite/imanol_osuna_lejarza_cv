@@ -94,9 +94,21 @@ header img {
    
     .name-container {
         display: flex;
-        width: 60%;
+       /* width: 60%;*/
+       width: 1200px;
     }
 }
+
+
+@media only screen and (max-width: 1200px) {
+    /* Estilos para pantallas pequeñas */
+    .name-container {
+        width: 90%;
+        
+    }
+
+}
+
 
 .contenedor-titulos {
     display: flex;

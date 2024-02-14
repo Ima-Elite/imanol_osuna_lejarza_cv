@@ -15,7 +15,7 @@
 }
 
 /*pasar al 90 en celular*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     /* Estilos para pantallas pequeñas */
     #slider {
         width: 90%;
