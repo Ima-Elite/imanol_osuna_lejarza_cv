@@ -52,6 +52,11 @@
         width: 90%; 
         
     }
+    
+    /*para que quede centrado en celular*/
+    ul {
+        margin-left: -28px;
+    }
 }
   
   h1 {   
@@ -139,9 +144,9 @@
   }
 
 
-   /*para el gmail*/
+   /*para el gmail y los enlaces de interes*/
 
- @media only screen and (max-width: 499px) {
+ @media only screen and (max-width: 399px) {
     /* Estilos para pantallas pequeñas */
     .pc_gmail {
         display: none;
@@ -149,7 +154,7 @@
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 400px) {
     .celular_gmail {
         display: none;
         visibility: hidden;
