@@ -43,7 +43,6 @@
 }
 
 /*imagenes de la tabla competencias tecnicas*/
-
 .imagen-redondeada {
   border-radius: 10px;
   width:50px;
@@ -65,10 +64,7 @@
  
   }
 
-
 /*competencias personales*/
-
-
 #competencia_personales{
   width:90%;
   margin-bottom: -10px;

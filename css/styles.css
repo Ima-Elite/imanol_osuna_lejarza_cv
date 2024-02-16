@@ -6,20 +6,17 @@ body {
     background-color: white;
 }
 
-
 /*
 
 border: 2px solid #000;
 
 */
 
-
 body p{
     font-size: 20px;
 }
 
 /*colores personalizados ------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .verdosillo {
     color: rgb(8, 76, 65, 1); 
 }
@@ -27,8 +24,8 @@ body p{
 .grisillo {
     color: #333; 
 }
-/*header ------------------------------------------------------------------------------------------------------------------------------------------*/
 
+/*header ------------------------------------------------------------------------------------------------------------------------------------------*/
 header {
 
     background: linear-gradient(to bottom, transparent 55%, #fff 45%), url('../img/cabecera/oficina_cabcera_distorsion.png'); 
@@ -70,7 +67,6 @@ header img {
 }
 
 /* Enlaces  del index------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .name-container {
    
     padding: 20px;
@@ -108,7 +104,6 @@ header img {
     }
 
 }
-
 
 .contenedor-titulos {
     display: flex;
@@ -149,9 +144,7 @@ header img {
     }
 }
 
-
 /*Efecto de Hover en las imagenes de Sobre mí, Experiencia Laboral y Formación*/
-
 .imagen-animada {
     max-width: 100%;
     height: auto;
@@ -190,7 +183,6 @@ header img {
 }
 
 /*Línea de separación  ------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .line-container {
     width: 60%;
     margin: 20px auto;
@@ -212,7 +204,6 @@ header img {
 
 
 /*Acercador para celular ------------------------------------------------------------------------------------------------------------------------------------------*/
-
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
     .acercador_arriba {
@@ -230,44 +221,13 @@ header img {
 
 
 /*Los nombres de los trabajos del slider en el index*/
-
 #resultado {
     text-align: center;
     color:#333;
   }
 
 
-
-/*Slider  ------------------------------------------------------------------------------------------------------------------------------------------*/
-
-.slider-container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slider {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    
-  }
-  
-  .slider img {
-    width: 800px;
-    height: 450px;
-    border-radius:15px;
-    
-  }
-
-
-  /* boton atras ------------------------------------------------------------------------------------------------------------------------------------------*/
-  
+/* boton atras ------------------------------------------------------------------------------------------------------------------------------------------*/
   .atras {
     font-size: 20px;
     text-decoration: none;
@@ -276,7 +236,6 @@ header img {
 
 
 /* fotter ------------------------------------------------------------------------------------------------------------------------------------------*/
-
 footer {
     background-color: rgb(8, 76, 65, 1); 
     color: white;

@@ -26,7 +26,6 @@
   
   
   /*Enlaces de sobre mí*/
-  
   a:hover {
       color:white;
   }
@@ -59,7 +58,7 @@
     }
 }
   
-  h1 {   
+h1 {   
       
       text-align: center;
   }
@@ -81,7 +80,6 @@
   }
   
   /*las distintas tablas de la páginas*/
-
   #tabla_competencias_tecnicas {
       font-size: 20px;
       width: 70%;
@@ -145,7 +143,6 @@
 
 
    /*para el gmail y los enlaces de interes*/
-
  @media only screen and (max-width: 399px) {
     /* Estilos para pantallas pequeñas */
     .pc_gmail {

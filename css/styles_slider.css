@@ -22,8 +22,33 @@
     }
 }
 
-/*transiciones de imagen a imagen*/
+/*Slider  ------------------------------------------------------------------------------------------------------------------------------------------*/
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    
+  }
+  
+  .slider img {
+    width: 800px;
+    height: 450px;
+    border-radius:15px;
+    
+  }
 
+/*transiciones de imagen a imagen*/
 #slider .selected{
     z-index: 1; 
     opacity: 1; 
@@ -46,7 +71,6 @@
 
 
 /*Botones del propio slider*/
-
 #botones {
     text-align: center;
     margin-top: 20px;

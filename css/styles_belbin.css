@@ -28,7 +28,6 @@
     text-align: center !important;
 }
 
-
 @media screen and (max-width: 600px) {
     .belbin-foto {
         width: calc(100% - 20px); 
