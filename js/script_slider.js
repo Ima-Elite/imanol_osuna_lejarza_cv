@@ -1,12 +1,5 @@
 //array que contiene las imagenes
-const imagenes = [
-    "img/slider/profe_lanzadera.jpg",
-    "img/slider/cic.png",
-    "img/slider/cc_cazonia.jpg",
-    "img/slider/carpintero.png",
-    "img/slider/palacio_mag.jpg",
-    "img/slider/itecan2.jpg"
-  ];
+var imagenes = new Array("img/slider/profe_lanzadera.jpg","img/slider/cic.png","img/slider/cc_cazonia.jpg","img/slider/carpintero.png","img/slider/palacio_mag.jpg","img/slider/itecan2.jpg",);
 var pos = 0;
 var crono = "";
 
@@ -56,6 +49,14 @@ function primera() {
     
 }
 
+//ultima posicion
+function ultima() {
+    parada();
+    document.getElementById('slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
+    pos = 5;
+    
+}
+
 //avanzar
 function avanza() {
     parada();
@@ -90,13 +91,6 @@ function parada() {
     var boton = document.getElementById("arrancar");
 
     boton.style.backgroundImage = "url('img/slider/botones/play.png')";
-}
-
-//ultima posicion
-function ultima() {
-    parada();
-    document.getElementById('slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
-    
 }
 
 function play() {
