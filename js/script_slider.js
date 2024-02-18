@@ -1,5 +1,12 @@
 //array que contiene las imagenes
-var imagenes = new Array("img/slider/profe_lanzadera.jpg","img/slider/cic.png","img/slider/cc_cazonia.jpg","img/slider/carpintero.png","img/slider/palacio_mag.jpg","img/slider/itecan2.jpg",);
+const imagenes = [
+    "img/slider/profe_lanzadera.jpg",
+    "img/slider/cic.png",
+    "img/slider/cc_cazonia.jpg",
+    "img/slider/carpintero.png",
+    "img/slider/palacio_mag.jpg",
+    "img/slider/itecan2.jpg"
+  ];
 var pos = 0;
 var crono = "";
 
