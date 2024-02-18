@@ -35,19 +35,25 @@
       color: rgb(8, 76, 65, 1); 
   }
   
-  #sobre_mi_perfil {
+  .sobre_mi_perfil {
      /* width: 50%; */
      width: 1000px;
       margin: 0 auto; 
   }
 
-  #sobre_mi_perfil p{
+  .sobre_mi_perfil i{
+    font-size: 20px;
+    text-align: justify;
+
+  }
+
+  .sobre_mi_perfil p{
     text-align: justify;
 }
 
 @media only screen and (max-width: 1020px) {
     /* Estilos para pantallas pequeñas */
-    #sobre_mi_perfil {
+    .sobre_mi_perfil {
         width: 90%; 
         
     }
@@ -137,6 +143,7 @@ h1 {
     padding-left: 4px;
     padding-right: 4px;
   }
+  
   .negro {
     color: black;
   }
