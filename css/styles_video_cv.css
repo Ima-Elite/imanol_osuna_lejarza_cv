@@ -13,3 +13,8 @@ video {
         height: auto; 
     }
 }
+
+.titulo_video {
+    text-align: center;
+    color:#333;
+}
