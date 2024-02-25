@@ -1,0 +1,15 @@
+video {
+    width: 725px; 
+    height: 410px; 
+    display: block;
+    margin: 0 auto; 
+    border-radius: 26px; 
+    overflow: hidden; 
+}
+
+@media (max-width: 800px) {
+    video {
+        width: 90%; 
+        height: auto; 
+    }
+}

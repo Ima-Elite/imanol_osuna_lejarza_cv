@@ -11,6 +11,7 @@
     <meta name="description" content="Imanol Osuna Lejearza - Programador Informático">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/styles_slider.css">
+    <link rel="stylesheet" type="text/css" href="css/styles_video_cv.css">
     <link rel="icon" href="img/favicon/favicon_grande.ico" type="image/x-icon">
 </head>
 
@@ -33,9 +34,18 @@
         <div class="line-container">
             <div class="underline"></div>
         </div>
-        <div class="acercador_arriba">
 
+        <video controls>
+            <source src="cv/video/video_cv_ima.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+
+        <p>&nbsp;<span style="visibility: hidden;"></span></p>
+
+        <div class="line-container">
+            <div class="underline"></div>
         </div>
+
         <div class="name-container">
             <div class="menu_principal">
                 <a href="formacion.html" class="info-box">
@@ -59,14 +69,13 @@
                 </a>
             </div>
         </div>
-        <div class="acercador">
 
-        </div>
         <div class="line-container">
             <div class="underline"></div>
         </div>
 
         <h3 id="resultado">Profesor de HTML y CSS</h3>
+        
         <h3 id="resultado_lugar" class="verdosillo" style="text-align: center;">Lanzadera de Empleo</h3>
 
         <div id="slider">
@@ -85,13 +94,15 @@
             <input type="button"  id="ultima"    value="&nbsp;" onclick="ultima(); irAlUltimoNombre(); detenerPresentacion(); irAlUltimoNombre_lugar(); detenerPresentacion_lugar();">
 
         </div>
-        <p class="quitar_distancia">&nbsp;<span style="visibility: hidden;"></span></p>
+        
         <p>&nbsp;<span style="visibility: hidden;"></span></p>
+
         <footer id="footer">
             <div class="footer-content">
                     <h3>Imanol Osuna Lejearza<span id="pie_programador">&nbsp; - &nbsp;Programador Informático</span></h3>
             </div>
         </footer>
+
     </div>
  
     <script src="js/script_slider.js"></script>
