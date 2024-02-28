@@ -12,7 +12,6 @@
     box-shadow: 0 0 10px #000; 
     overflow: hidden;
     background-size: cover;
-    transition: background-image 1s ease-in-out;
 }
 
 /*pasar al 90 en celular*/
@@ -21,6 +20,7 @@
     #slider {
         width: 90%;
         height: 410px; 
+        transition: background-image 1s ease-in-out;        
     }
 }
 
@@ -46,8 +46,7 @@
   .slider img {
     width: 800px;
     height: 450px;
-    border-radius:15px;
-    
+    border-radius:15px; 
   }
 
 /*transiciones de imagen a imagen*/
@@ -70,7 +69,6 @@
     -webkit-transition: all 2s ease 0s;
     transition: all 2s ease 0s;
 }
-
 
 /*Botones del propio slider*/
 #botones {
