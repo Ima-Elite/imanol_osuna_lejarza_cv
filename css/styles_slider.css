@@ -22,51 +22,8 @@
     }
 }
 
-/*Slider  ------------------------------------------------------------------------------------------------------------------------------------------*/
-.slider-container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-  }
-  
-  .slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slider {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    
-  }
-  
-  .slider img {
-    width: 800px;
-    height: 450px;
-    border-radius:15px; 
-  }
 
-/*transiciones de imagen a imagen*/
-#slider .selected{
-    z-index: 1; 
-    opacity: 1; 
-    -moz-transition: all 2s ease 0s;
-    -ms-transition: all 2s ease 0s;
-    -o-transition: all 2s ease 0s;
-    -webkit-transition: all 2s ease 0s;
-    transition: all 2s ease 0s;
-}
 
-#slider .noselected{
-    z-index: 0; 
-    opacity: 0; 
-    -moz-transition: all 2s ease 0s;
-    -ms-transition: all 2s ease 0s;
-    -o-transition: all 2s ease 0s;
-    -webkit-transition: all 2s ease 0s;
-    transition: all 2s ease 0s;
-}
 
 /*Botones del propio slider*/
 #botones {
