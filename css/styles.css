@@ -68,13 +68,9 @@ header img {
 
 /* Enlaces  del index------------------------------------------------------------------------------------------------------------------------------------------*/
 .name-container {
-   
-    padding: 20px;
-    margin: 20px auto;
-    
+    margin: -26px auto;
     justify-content: space-between; /* Alinea los divs en fila */
     flex-direction: row-reverse; 
-    
 }
 
 @media only screen and (max-width: 600px) {
@@ -202,22 +198,8 @@ header img {
    
 }
 
+/*h3 del menú principal*/
 
-/*Acercador para celular ------------------------------------------------------------------------------------------------------------------------------------------*/
-@media only screen and (max-width: 600px) {
-    /* Estilos para pantallas pequeñas */
-    .acercador_arriba {
-        margin-bottom: -10%;
-    }
-    .acercador {
-        margin-bottom: -10%;
-    }
-    .quitar_distancia {
-        display: none;
-        visibility: hidden;
-    }
-    
-}
 
 
 /*Los nombres de los trabajos del slider en el index*/

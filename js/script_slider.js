@@ -1,5 +1,5 @@
 //array que contiene las imagenes
-var imagenes = new Array("img/slider/profe_lanzadera.jpg","img/slider/cic.png","img/slider/cc_cazonia.jpg","img/slider/carpintero.png","img/slider/palacio_mag.jpg","img/slider/itecan2.jpg",);
+var imagenes = new Array("img/slider/profe_lanzadera.jpg","img/slider/cic.png","img/slider/cc_cazonia.jpg","img/slider/carpintero.png","img/slider/palacio_mag_foto.jpg","img/slider/itecan2.jpg",);
 var pos = 0;
 var crono = "";
 
@@ -94,13 +94,14 @@ function parada() {
 }
 
 function play() {
+
     var velocidad = 2000;
     if (crono !== "") {
         parada();
         detenerPresentacion();
         detenerPresentacion_lugar();
     } else {
-        
+
         var boton = document.getElementById("arrancar");
 
         boton.style.backgroundImage = "url('img/slider/botones/stop.png')";
@@ -117,7 +118,9 @@ function play() {
         }, velocidad);
         iniciarPresentacion();
         iniciarPresentacion_lugar();
+ 
     }
+    
 }
 
 
