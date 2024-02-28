@@ -102,7 +102,6 @@ function parada() {
 
     boton.style.backgroundImage = "url('img/slider/botones/play.png')";
 
-
 }
 
 function play() {

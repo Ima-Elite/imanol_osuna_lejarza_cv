@@ -1,26 +1,24 @@
 /*estilos del slider----------------------------------------------*/
 
 #slider{
-    margin: 0 auto;
-    display: block; 
-    position: relative; 
-    width: 725px;
-    height: 510px; 
-    list-style: none; 
-    border: 2px solid #1a1a1a; 
-    border-radius: 10px; 
-    box-shadow: 0 0 10px #000; 
-    overflow: hidden;
-    background-size: cover;
+  margin: 0 auto;
+  display: block; 
+  position: relative; 
+  width: 725px;
+  height: 410px; 
+  list-style: none; 
+  border: 2px solid #1a1a1a; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px #000; 
+  overflow: hidden;
+  background-size: cover;
 }
 
 /*pasar al 90 en celular*/
 @media only screen and (max-width: 800px) {
     /* Estilos para pantallas pequeñas */
     #slider {
-        width: 90%;
-        height: 410px; 
-        transition: background-image 1s ease-in-out;        
+        width: 90%;    
     }
 }
 
