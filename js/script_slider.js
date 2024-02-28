@@ -1,5 +1,12 @@
-//array que contiene las imagenes
-var imagenes = new Array("img/slider/profe_lanzadera.jpg","img/slider/cic.png","img/slider/cc_cazonia.jpg","img/slider/carpintero.png","img/slider/palacio_mag_foto.jpg","img/slider/itecan2.jpg",);
+var imagenes = [
+    "img/slider/profe_lanzadera.jpg",
+    "img/slider/cic.png",
+    "img/slider/cc_cazonia.jpg",
+    "img/slider/carpintero.png",
+    "img/slider/palacio_mag_foto.jpg",
+    "img/slider/itecan2.jpg"
+];
+
 var pos = 0;
 var crono = "";
 
@@ -11,7 +18,6 @@ primera();
 
 //iniciar el slider
 play();
-
 
 function cargar_iconos(){
 
@@ -46,19 +52,21 @@ function primera() {
     parada();
     document.getElementById('slider').style.backgroundImage = "url(" + imagenes[0] + ")";
     pos = 0;
-    
+  
 }
 
 //ultima posicion
 function ultima() {
+
     parada();
     document.getElementById('slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
     pos = 5;
-    
+
 }
 
 //avanzar
 function avanza() {
+
     parada();
     if (pos === imagenes.length - 1) {
         document.getElementById('slider').style.backgroundImage = "url(" + imagenes[0] + ")";
@@ -67,10 +75,12 @@ function avanza() {
         document.getElementById('slider').style.backgroundImage = "url(" + imagenes[pos + 1] + ")";
         pos = pos + 1;
     }
+
 }
 
 //retroceder
 function retrocede() {
+
     parada();
     if (pos === 0) {
         document.getElementById('slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
@@ -79,11 +89,11 @@ function retrocede() {
         document.getElementById('slider').style.backgroundImage = "url(" + imagenes[pos - 1] + ")";
         pos = pos - 1;
     }
-    
 }
 
 //la funcion iniciar / parar
 function parada() {
+
     clearInterval(crono);
     crono = "";
     //document.getElementById("arrancar").value = "Iniciar";
@@ -91,6 +101,8 @@ function parada() {
     var boton = document.getElementById("arrancar");
 
     boton.style.backgroundImage = "url('img/slider/botones/play.png')";
+
+
 }
 
 function play() {
@@ -118,8 +130,9 @@ function play() {
         }, velocidad);
         iniciarPresentacion();
         iniciarPresentacion_lugar();
- 
+
     }
+
     
 }
 
