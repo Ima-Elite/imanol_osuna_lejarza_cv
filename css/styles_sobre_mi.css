@@ -1,4 +1,3 @@
-
  /*estilos para la pagina sobre mí que tambien los utilizado en trabajos y formacion*/
 
   #sobre_mi {
@@ -19,8 +18,8 @@
   @media only screen and (max-width: 1020px) {
       /* Estilos para pantallas pequeñas */
       #sobre_mi img{
-          width: 90%;
-          margin-left: 5%;
+          width: 96%;
+          margin-left: 2%;
       }
   }
   
@@ -54,7 +53,7 @@
 @media only screen and (max-width: 1020px) {
     /* Estilos para pantallas pequeñas */
     .sobre_mi_perfil {
-        width: 90%; 
+        width: 96%; 
         
     }
     
@@ -79,9 +78,7 @@ h1 {
   @media only screen and (max-width: 600px) {
       /* Estilos para pantallas pequeñas */
       #sobre_mi_perfil_atras {
-      
           width: 25%; 
-          margin: 0 auto; 
       }
   }
   
@@ -98,13 +95,7 @@ h1 {
     vertical-align: middle; 
     padding: 10px; 
     }
-  
-  @media only screen and (min-width: 600px) {
 
-      #tabla_competencias_tecnicas {
-          width: 70%;
-      }
-  }
   
   @media only screen and (max-width: 599px) {
       /* Estilos para pantallas pequeñas */
@@ -149,7 +140,7 @@ h1 {
   }
 
 
-   /*para el gmail y los enlaces de interes*/
+/*para el gmail y los enlaces de interes*/
  @media only screen and (max-width: 399px) {
     /* Estilos para pantallas pequeñas */
     .pc_gmail {

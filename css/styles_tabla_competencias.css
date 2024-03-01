@@ -1,5 +1,9 @@
 /*estilos de la tabla de competencias tecnicas, la de barra de procesos*/
 
+#tabla_competencias_tecnicas {
+  width: 100%;
+}
+
 .progress-bar {
     height: 20px;
     background-color:rgb(195, 195, 195);
@@ -21,9 +25,6 @@
     color: white;
   }
 
-  #tabla_competencias_tecnicas {
-    width: 100%;
-  }
 
   @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
@@ -56,17 +57,17 @@
 
 @media only screen and (min-width: 600px) {
    /* Estilos para pantallas grandes */
-       
+
   #tabla_competencias_tecnicas td{
     padding-bottom: 40px;
     width: 24%;
   }
  
-  }
+}
 
 /*competencias personales*/
 #competencia_personales{
-  width:90%;
+  width:96%;
   margin-bottom: -10px;
 }
 
