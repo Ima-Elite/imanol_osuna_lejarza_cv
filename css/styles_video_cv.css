@@ -9,7 +9,7 @@ video {
 
 @media (max-width: 800px) {
     video {
-        width: 96%; 
+        width: 94%; 
         height: auto; 
     }
 }

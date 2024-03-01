@@ -18,7 +18,7 @@
   @media only screen and (max-width: 1020px) {
       /* Estilos para pantallas pequeñas */
       #sobre_mi img{
-          width: 96%;
+          width: 94%;
           margin-left: 2%;
       }
   }
@@ -53,7 +53,7 @@
 @media only screen and (max-width: 1020px) {
     /* Estilos para pantallas pequeñas */
     .sobre_mi_perfil {
-        width: 96%; 
+        width: 94%; 
         
     }
     

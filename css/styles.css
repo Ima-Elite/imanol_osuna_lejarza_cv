@@ -86,7 +86,7 @@ header img {
 @media only screen and (max-width: 1200px) {
     /* Estilos para pantallas pequeñas */
     .name-container {
-        width: 96%;
+        width: 94%;
         
     }
 
@@ -126,7 +126,7 @@ header img {
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
     .menu_principal {
-        width: 96%;
+        width: 94%;
         margin-left: 2%;
     }
 }
