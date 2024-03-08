@@ -73,7 +73,7 @@ header img {
     flex-direction: row-reverse; 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
    
     .name-container {
         display: flex;
@@ -112,24 +112,28 @@ header img {
 .menu_principal {
     text-align: center;
     margin: 10px;
-    width: 30%; /* Ajusta según tus necesidades */
+    width: 20%; /* Ajusta según tus necesidades */
  
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 
     .menu_principal {
         margin: -25px;
     }
 
 }
-@media only screen and (max-width: 600px) {
+
+
+
+@media only screen and (max-width: 800px) {
     /* Estilos para pantallas pequeñas */
     .menu_principal {
         width: 94%;
         margin-left: 2%;
     }
 }
+
 
 /*Efecto de Hover en las imagenes de Sobre mí, Experiencia Laboral y Formación*/
 .imagen-animada {
