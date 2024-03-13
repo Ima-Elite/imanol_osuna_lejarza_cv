@@ -67,13 +67,46 @@ header img {
 }
 
 /* Enlaces  del index------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*los tipos de menú aparecen o nó según tamaño de navegador*/
+
+#menu-medio {
+    display: none;
+}
+
+@media only screen and (max-width: 1199px) {
+
+#menu-grande {
+    display: none;
+    
+}
+
+#menu-medio {
+    display: block;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+   
+    #menu-grande {
+        display: block;
+    }
+    #menu-medio {
+        display: none;
+    }
+
+}
+
+/*las partes del menú en sí*/
+
 .name-container {
     margin: -26px auto;
     justify-content: space-between; /* Alinea los divs en fila */
     flex-direction: row-reverse; 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 801px) {
    
     .name-container {
         display: flex;
@@ -82,12 +115,14 @@ header img {
     }
 }
 
-
-@media only screen and (max-width: 1200px) {
-    /* Estilos para pantallas pequeñas */
+@media only screen and (max-width: 1199px) {
+    
     .name-container {
         width: 94%;
         
+    }
+    .menu_principal {
+        width: 60%; 
     }
 
 }
@@ -112,28 +147,26 @@ header img {
 .menu_principal {
     text-align: center;
     margin: 10px;
-    width: 20%; /* Ajusta según tus necesidades */
+
  
 }
 
-@media only screen and (max-width: 800px) {
-
+@media only screen and (min-width: 1200px) {
     .menu_principal {
-        margin: -25px;
+        width: 20%; /* Ajusta según tus necesidades */
+
     }
-
 }
-
-
 
 @media only screen and (max-width: 800px) {
     /* Estilos para pantallas pequeñas */
     .menu_principal {
         width: 94%;
-        margin-left: 2%;
+        margin: -25px;
+        margin-left: 4%;
+
     }
 }
-
 
 /*Efecto de Hover en las imagenes de Sobre mí, Experiencia Laboral y Formación*/
 .imagen-animada {
@@ -193,10 +226,6 @@ header img {
    
 }
 
-/*h3 del menú principal*/
-
-
-
 /*Los nombres de los trabajos del slider en el index*/
 #resultado {
     text-align: center;
@@ -225,7 +254,6 @@ footer {
     height: 60px;
 }
 
-
 .footer-content {
     display: flex;
     justify-content: center;
@@ -238,14 +266,12 @@ footer {
     margin-top: 8px;
 }
 
-
 @media only screen and (min-width: 600px) {
     
     .footer-content h3 {
         margin-left: 20px;
     }
 }
-
 
 @media only screen and (max-width: 600px) {
     /* Estilos para pantallas pequeñas */
