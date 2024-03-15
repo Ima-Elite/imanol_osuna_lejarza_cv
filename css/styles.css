@@ -140,9 +140,18 @@ header img {
     text-align: center;
     padding: 10px;
     text-decoration: none; 
-    color: #333; 
     border-radius: 10px;
 }
+
+.info-box h3{
+    color: #333; 
+ }
+
+ .info-box h2{
+    color: black;
+ }
+
+
 
 .menu_principal {
     text-align: center;
@@ -229,20 +238,20 @@ header img {
 /*Los nombres de los trabajos del slider en el index*/
 #resultado {
     text-align: center;
-    color:#333;
-  }
+    color: rgb(8, 76, 65, 1); 
+}
 
-  #resultado_lugar {
+#resultado_lugar {
    text-align: center;
-   color: rgb(8, 76, 65, 1); ;
-  }
+   color:#333;
+}
 
 /* boton atras ------------------------------------------------------------------------------------------------------------------------------------------*/
-  .atras {
+.atras {
     font-size: 20px;
     text-decoration: none;
     color: black;
-  }
+}
 
 
 /* fotter ------------------------------------------------------------------------------------------------------------------------------------------*/
