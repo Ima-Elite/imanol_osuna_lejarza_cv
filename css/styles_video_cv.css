@@ -18,3 +18,10 @@ video {
     text-align: center;
     color:#333;
 }
+
+/*borde del video*/
+video {
+    border: 2px solid rgb(8, 76, 65, 1);  
+    max-width: 100%; 
+    box-sizing: border-box;
+}
