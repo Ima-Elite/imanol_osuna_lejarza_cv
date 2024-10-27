@@ -1,0 +1,23 @@
+    /* Estilos para el botón de la flecha para Arriba*/
+    #btnVolverArriba {
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        font-size: 24px;
+        background-color: rgb(8, 76, 65, 1); 
+        color: white;
+        padding: 10px;
+        border-radius: 100%;
+        cursor: pointer;
+        display: none; /* Oculto por defecto */
+        z-index: 1000;
+        transition: opacity 0.3s;
+        border: 2px solid white;
+    }
+
+    #btnVolverArriba:hover {
+        background-color: white;
+        border: 2px solid rgb(8, 76, 65, 1); 
+        color: rgb(8, 76, 65, 1);
+        
+    }
