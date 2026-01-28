@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Imanol Osuna Lejarza CV</title>
+
     <meta name="keywords" content="Imanol Osuna Lejharza, programador web, informático, desarrollo de software">
     <meta name="keywords" content="diseño web, desarrollo de aplicaciones móviles, consultoría informática, seguridad en redes">
     <meta name="keywords" content="programación, diseño web, desarrollo de aplicaciones, seguridad informática">
+
     <meta name="description" content="Imanol Osuna Lejearza - Programador Informático">
+
     <link rel="stylesheet" href="css/styles.css">
+
     <link rel="stylesheet" type="text/css" href="css/styles_slider.css">
     <link rel="stylesheet" type="text/css" href="css/styles_video_cv.css">
     <link rel="stylesheet" type="text/css" href="css/styles_flecha.css">
+
     <link rel="icon" href="img/favicon/imanol-osuna-lejarza-favicon.ico" type="image/x-icon">
+    
 </head>
 
 <body>
@@ -139,26 +146,25 @@
             <div class="underline"></div>
         </div>
 
-        <h2 style="text-align: center; margin-bottom:30px; ">Mis Empleos</h2>
+        <h2 class="estilos-mis-empleos">Mis Empleos</h2>
 
-        <h3 id="resultado">Profesor de HTML y CSS</h3>
+        <h3 id="puesto_trabajo">Profesor de HTML y CSS</h3>
         
-        <h3 id="resultado_lugar">Lanzadera de Empleo</h3>
+        <h3 id="puesto_lugar">Lanzadera de Empleo</h3>
 
-        <div id="slider">
-        </div>
+        <div id="slider"></div>
 
         <div id="botones">
 
-            <input type="button"  id="primera"   value="&nbsp;" onclick="primera(); irAlPrimerNombre(); detenerPresentacion(); irAlPrimerNombre_lugar(); detenerPresentacion_lugar();">&nbsp;
+            <input type="button"  id="primera"   value="&nbsp;" onclick="primera(); irAlPrimerNombre(); detenerPresentacion_texto(); irAlPrimerNombre_lugar(); detenerPresentacion_lugar();">&nbsp;
 
-            <input type="button"  id="retrocede" value="&nbsp;" onclick="retrocede(); nombreAnterior(); detenerPresentacion(); nombreAnterior_lugar(); detenerPresentacion_lugar();">&nbsp;
+            <input type="button"  id="retrocede" value="&nbsp;" onclick="retrocede(); nombreAnterior(); detenerPresentacion_texto(); nombreAnterior_lugar(); detenerPresentacion_lugar();">&nbsp;
 
             <input type="button"  id="arrancar"  value="&nbsp;" onclick="play();">&nbsp;
 
-            <input type="button"  id="avanza"    value="&nbsp;" onclick="avanza(); siguienteNombre(); detenerPresentacion(); siguienteNombre_lugar(); detenerPresentacion_lugar();">&nbsp;
+            <input type="button"  id="avanza"    value="&nbsp;" onclick="avanza(); siguienteNombre(); detenerPresentacion_texto(); siguienteNombre_lugar(); detenerPresentacion_lugar();">&nbsp;
 
-            <input type="button"  id="ultima"    value="&nbsp;" onclick="ultima(); irAlUltimoNombre(); detenerPresentacion(); irAlUltimoNombre_lugar(); detenerPresentacion_lugar();">
+            <input type="button"  id="ultima"    value="&nbsp;" onclick="ultima(); irAlUltimoNombre(); detenerPresentacion_texto(); irAlUltimoNombre_lugar(); detenerPresentacion_lugar();">
 
         </div>
         
@@ -174,21 +180,25 @@
 
     </div>
 
-    <!-- Botón de volver arriba -->
-
-    <script src="js/script_flecha.js"></script>
+    <!-- Botón flecha de volver arriba -->
 
     <button id="btnVolverArriba" onclick="volverArriba()">↑</button>
 
-    <!-- Slider -->
- 
-    <script src="js/script_slider.js"></script>
-    <script src="js/script_texto_slider.js"></script>
-    <script src="js/script_texto_slider_lugar.js"></script>
+    <script src="js/script_flecha.js"></script>
 
-     <!-- Recargar página -->
+    <!-- Js para el Slider -->
+ 
+    <script src="js/script_botones_slider.js"></script>
+    <script src="js/script_slider.js"></script>
+    <script src="js/script_puesto_slider.js"></script>
+    <script src="js/script_lugar_slider.js"></script>
+ 
+
+
+     <!-- Recargar página cada 3 min desactivada -->
 
     <script>
+        
        function reloadAndClearCache() {
             location.reload(true);
         }
@@ -198,6 +208,7 @@
         }
 
         reloadEveryThreeMinutes();
+
     </script>
     
 </body>

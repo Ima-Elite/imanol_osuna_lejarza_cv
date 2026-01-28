@@ -1,0 +1,158 @@
+ /*estilos para la pagina sobre mí que tambien los utilizado en trabajos y formacion*/
+
+  #sobre_mi {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  
+  /*la imagen superior del sobre mí*/
+  #sobre_mi img{
+      border: 2px solid #1a1a1a; 
+      border-radius: 10px; 
+      box-shadow: 0 0 10px #000; 
+  }
+  
+  @media only screen and (max-width: 1020px) {
+      /* Estilos para pantallas pequeñas */
+      #sobre_mi img{
+          width: 94%;
+          margin-left: 2%;
+      }
+  }
+  
+  
+  /*Enlaces de sobre mí*/
+  a:hover {
+      color:white;
+  }
+  
+  a {
+      text-decoration: underline;
+      color: rgb(8, 76, 65, 1); 
+  }
+  
+  .sobre_mi_perfil {
+     /* width: 50%; */
+     width: 1000px;
+      margin: 0 auto; 
+  }
+
+  .sobre_mi_perfil i{
+    font-size: 20px;
+    text-align: justify;
+
+  }
+
+  .sobre_mi_perfil p{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1020px) {
+    /* Estilos para pantallas pequeñas */
+    .sobre_mi_perfil {
+        width: 94%; 
+        
+    }
+    
+    /*para que quede centrado en celular*/
+    ul {
+        margin-left: -28px;
+    }
+}
+  
+h1 {   
+      
+      text-align: center;
+  }
+
+  /*flecha acia atras*/
+  #sobre_mi_perfil_atras {
+      
+      width: 10%; 
+      margin: 0 auto; 
+  }
+  
+  @media only screen and (max-width: 600px) {
+      /* Estilos para pantallas pequeñas */
+      #sobre_mi_perfil_atras {
+          width: 25%; 
+      }
+  }
+  
+  /*las distintas tablas de la páginas*/
+  #tabla_competencias_tecnicas {
+      font-size: 20px;
+      width: 70%;
+      margin: auto; 
+      border-collapse: collapse; 
+      float: left;
+  }
+ 
+  td {
+    vertical-align: middle; 
+    padding: 10px; 
+    }
+
+  
+  @media only screen and (max-width: 599px) {
+      /* Estilos para pantallas pequeñas */
+      
+      .miss_celular {
+          display: none;
+          visibility: hidden;
+      }
+  }
+  
+  @media only screen and (min-width: 600px) {
+      /* Estilos para pantallas grandes */
+      .mostrar_celular {
+          display: none;
+          visibility: hidden;
+      }
+  }
+  
+  
+  /*enlaces you-tube y linked*/
+
+  .azul {
+    padding-left: 4px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(9, 103, 193);
+    margin-left: -3px;
+  }
+
+  .rojo{
+    padding: 2px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(205, 32, 31);
+    margin-left: -3px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .negro {
+    color: black;
+  }
+
+
+/*para el gmail y los enlaces de interes*/
+ @media only screen and (max-width: 399px) {
+    /* Estilos para pantallas pequeñas */
+    .pc_gmail {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .celular_gmail {
+        display: none;
+        visibility: hidden;
+    }    
+  
+}

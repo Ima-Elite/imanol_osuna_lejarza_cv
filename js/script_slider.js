@@ -1,4 +1,5 @@
-var imagenes = [
+//array de las imagenes de los lugares de trabajo
+let imagenes = [
     "img/slider/profe_lanzadera.jpg",
     "img/slider/cic.png",
     "img/slider/cc_cazonia.jpg",
@@ -7,50 +8,25 @@ var imagenes = [
     "img/slider/itecan2.jpg"
 ];
 
-var pos = 0;
-var crono = "";
+// posiciones del array cuando avanzo o retrocedo
+let pos = 0;
 
-// poner imagen en cada boton del slider
-cargar_iconos();
+// aqui añado la funcion huérfana de pasar imagenes del slider y texto una a una cada 1 segundo
+let crono = "";
 
-//la primera imagen
+
+//cargar la primera imagen del slider
 primera();
 
 //iniciar el slider
 play();
 
-function cargar_iconos(){
 
-    //primera
-
-    var boton = document.getElementById("primera");
-
-    boton.style.backgroundImage = "url('img/slider/botones/primera.png')";
-
-    //retrocede
-
-    var boton2 = document.getElementById("retrocede");
-
-    boton2.style.backgroundImage = "url('img/slider/botones/anterior_2.png')";
-
-    //avanzar
-
-    var boton3 = document.getElementById("avanza");
-
-    boton3.style.backgroundImage = "url('img/slider/botones/siguiente_2.png')";
-
-   //ultima
-
-   var boton4 = document.getElementById("ultima");
-
-   boton4.style.backgroundImage = "url('img/slider/botones/ultima.png')";
-
-}
 
 //la primera imagen
 function primera() {
     parada();
-    document.getElementById('slider').style.backgroundImage = "url(" + imagenes[0] + ")";
+    document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[0] + ")";
     pos = 0;
   
 }
@@ -59,7 +35,7 @@ function primera() {
 function ultima() {
 
     parada();
-    document.getElementById('slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
+    document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
     pos = 5;
 
 }
@@ -69,11 +45,11 @@ function avanza() {
 
     parada();
     if (pos === imagenes.length - 1) {
-        document.getElementById('slider').style.backgroundImage = "url(" + imagenes[0] + ")";
+        document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[0] + ")";
         pos = 0;
     } else {
-        document.getElementById('slider').style.backgroundImage = "url(" + imagenes[pos + 1] + ")";
-        pos = pos + 1;
+        document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[pos + 1] + ")";
+        pos++;
     }
 
 }
@@ -83,11 +59,11 @@ function retrocede() {
 
     parada();
     if (pos === 0) {
-        document.getElementById('slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
+        document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[imagenes.length - 1] + ")";
         pos = imagenes.length - 1;
     } else {
-        document.getElementById('slider').style.backgroundImage = "url(" + imagenes[pos - 1] + ")";
-        pos = pos - 1;
+        document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[pos - 1] + ")";
+        pos--;
     }
 }
 
@@ -96,38 +72,39 @@ function parada() {
 
     clearInterval(crono);
     crono = "";
-    //document.getElementById("arrancar").value = "Iniciar";
+    //document.querySelector("arrancar").value = "Iniciar";
 
-    var boton = document.getElementById("arrancar");
+    const boton = document.querySelector("#arrancar");
 
     boton.style.backgroundImage = "url('img/slider/botones/play.png')";
 
 }
 
+
 function play() {
 
-    var velocidad = 2000;
+    let velocidad = 2000;
     if (crono !== "") {
         parada();
-        detenerPresentacion();
+        detenerPresentacion_texto();
         detenerPresentacion_lugar();
     } else {
 
-        var boton = document.getElementById("arrancar");
+        const boton = document.querySelector("#arrancar");
 
         boton.style.backgroundImage = "url('img/slider/botones/stop.png')";
 
         crono = setInterval(function () {
             if (pos === imagenes.length - 1) {
-                document.getElementById('slider').style.backgroundImage = "url(" + imagenes[0] + ")";
+                document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[0] + ")";
                 pos = 0;
             } else {
-                document.getElementById('slider').style.backgroundImage = "url(" + imagenes[pos + 1] + ")";
+                document.querySelector('#slider').style.backgroundImage = "url(" + imagenes[pos + 1] + ")";
                 pos = pos + 1;
             }
             velocidad = 1000;
         }, velocidad);
-        iniciarPresentacion();
+        iniciarPresentacion_texto();
         iniciarPresentacion_lugar();
 
     }

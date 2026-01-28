@@ -3,7 +3,7 @@
      window.onscroll = function() { mostrarBoton() };
 
      function mostrarBoton() {
-         const boton = document.getElementById("btnVolverArriba");
+         const boton = document.querySelector("#btnVolverArriba");
          if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
              boton.style.display = "block";
              boton.style.opacity = "1";

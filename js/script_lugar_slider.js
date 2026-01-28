@@ -1,14 +1,21 @@
 
-/*Poner los lugares donde he trabajado en verde en el div resultado_lugar del index*/
+/*Poner los lugares donde he trabajado en verde en el div puesto_lugar del index*/
 
 /*comparte los mismos botones que el slider de imagenes*/ 
 
-var nombres_lugar = ["Lanzadera de Empleo","CIC - Parque Tecnológico", "Telecentro de Cazoña", "Escuela Taller - Santander", "Palacio de la Magdalena", "iTECAN - Parque Tecnológico"];
-var index_lugar = 0;
-var intervalId_lugar;
+let nombres_lugar = ["Lanzadera de Empleo",
+                     "CIC - Parque Tecnológico", 
+                     "Telecentro de Cazoña", 
+                     "Escuela Taller - Santander", 
+                     "Palacio de la Magdalena", 
+                     "iTECAN - Parque Tecnológico"];
+                     
+let index_lugar = 0;
+
+let intervalId_lugar;
 
 function mostrarNombre_lugar() {
-  document.getElementById("resultado_lugar").innerHTML = nombres_lugar[index_lugar];
+  document.querySelector("#puesto_lugar").innerHTML = nombres_lugar[index_lugar];
 }
 
 function irAlPrimerNombre_lugar() {
@@ -39,16 +46,7 @@ function iniciarPresentacion_lugar() {
   intervalId_lugar = setInterval(siguienteNombre_lugar, 2000);
 }
 
-function controlarPresentacion_lugar() {
-  var controlBtn = document.getElementById("controlBtn");
-  if (controlBtn.innerHTML === "Detener") {
-    detenerPresentacion_lugar();
-    controlBtn.innerHTML = "Iniciar";
-  } else {
-    iniciarPresentacion_lugar();
-    controlBtn.innerHTML = "Detener";
-  }
-}
+
 
 // Inicia la presentación por defecto
 iniciarPresentacion_lugar();

@@ -236,13 +236,24 @@ header img {
    
 }
 
+/*Mis Empleos*/
+
+.estilos-mis-empleos {
+    text-align: center; 
+    margin-bottom:30px;
+
+}
+
+
+
+
 /*Los nombres de los trabajos del slider en el index*/
-#resultado {
+#puesto_trabajo {
     text-align: center;
     color: rgb(8, 76, 65, 1); 
 }
 
-#resultado_lugar {
+#puesto_lugar {
    text-align: center;
    color:#333;
 }
