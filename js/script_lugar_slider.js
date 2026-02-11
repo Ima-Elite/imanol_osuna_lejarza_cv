@@ -3,7 +3,7 @@
 
 /*comparte los mismos botones que el slider de imagenes*/ 
 
-let nombres_lugar = ["Lanzadera de Empleo",
+const nombres_lugar = ["Lanzadera de Empleo",
                      "CIC - Parque Tecnológico", 
                      "Telecentro de Cazoña", 
                      "Escuela Taller - Santander", 

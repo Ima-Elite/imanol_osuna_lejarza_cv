@@ -1,5 +1,5 @@
 //array de las imagenes de los lugares de trabajo
-let imagenes = [
+const imagenes = [
     "img/slider/profe_lanzadera.jpg",
     "img/slider/cic.png",
     "img/slider/cc_cazonia.jpg",

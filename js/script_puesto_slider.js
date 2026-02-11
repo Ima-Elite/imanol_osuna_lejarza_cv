@@ -1,6 +1,6 @@
 /*nombre de los puestos de trabajo que aparecen en el h3: resultado*/ 
 
-let nombres = ["Profesor de HTML y CSS",
+const nombres = ["Profesor de HTML y CSS",
                 "Programador de Java y .Net",
                 "Profesor de Nuevas Tecnologías", 
                 "Carpintero y Diseño de Muebles", 
